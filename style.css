@@ -27,6 +27,13 @@ body {
   gap: 2rem;
 }
 
+.imagen {
+  width: auto;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
 .titulo {
   font-size: 3rem;
   padding: 1.5rem;
