@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imagenes/desarrollo-web.png" type="image/x-icon">   
+  <title>Encriptador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo">Encriptador de Texto</h1>
+  </header>
+  
+  <main class="main">
+    <section class="form box">
+      <form id="formulario">
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="7" cols="100"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar " id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar " id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="7" cols="100"></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>&copy; copyright Encriptador V0.1.0 - 2022</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
