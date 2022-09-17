@@ -7,3 +7,8 @@ Construye un encriptador de texto con Javascript
 
 sain león
 * [LinkedIn](https://www.linkedin.com/in/sainleon/)
+
+prueba el Encriptador
+*[Aqui](https://sainleon.github.io/Encriptador/)
+
+
