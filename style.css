@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Dosis&family=Montserrat&display=swap');
+
 html {
   font-size: 70.5%;
   box-sizing: border-box;
@@ -13,8 +15,10 @@ html {
 }
 
 body {
-  background: linear-gradient(to right,#1c1c1a,#F0FFFF,#0a1814); 
-  font-family: 'Ubuntu Mono', monospace;
+  background: linear-gradient(to right,#1c1c1a,#25a5a5,#0a1814); 
+  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -25,13 +29,6 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-}
-
-.imagen {
-  width: auto;
-  height: 50px;
-  display: block;
-  margin: auto;
 }
 
 .titulo {
@@ -59,8 +56,8 @@ body {
 }
 
 .button-container {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
 
 .button-container:last-child {

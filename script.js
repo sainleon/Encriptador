@@ -68,7 +68,7 @@ function desencriptarTexto(e) {
     return;
   }  
 }
- 
+
 // Verificar errores
 function mostrarError(mensaje) {
   const existeError = document.querySelector('.error');
